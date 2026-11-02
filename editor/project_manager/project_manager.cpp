@@ -116,7 +116,7 @@ void ProjectManager::_notification(int p_what) {
 
 		case NOTIFICATION_TRANSLATION_CHANGED: {
 			// TRANSLATORS: This refers to the application where users manage their Godot projects.
-			SceneTree::get_singleton()->get_root()->set_title(GODOT_VERSION_NAME + String(" - ") + TTR("Project Manager", "Application"));
+			SceneTree::get_singleton()->get_root()->set_title(String("Macaque Engine 0.3.4 - ") + TTR("Project Manager", "Application"));
 
 			const String line1 = TTR("You don't have any projects yet.");
 			const String line2 = TTR("Get started by creating a new one,\nimporting one that exists, or by downloading a project template from the Asset Store!");

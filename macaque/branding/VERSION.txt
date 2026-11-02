@@ -1,0 +1,4 @@
+Macaque Engine 0.3.2
+Based on Godot Engine 4.7
+Original engine: https://godotengine.org
+License: MIT
